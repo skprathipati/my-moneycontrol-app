@@ -1,0 +1,27 @@
+.logo {
+  height: 50px;
+  width: auto;
+  margin: 16px 12px;
+  vertical-align: middle;
+}
+
+.avatarWrapper {
+  margin-left: auto;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.avatar-logo {
+  height: 25px;
+  width: 25px;
+  vertical-align: middle;
+  fill: #ffffff;
+}
+
+/* Logon text styles */
+.logon-text {
+  font-size: 1.15rem;
+  font-weight: bold;
+  color: #fff;
+}

@@ -1,0 +1,43 @@
+#root, body, html {
+  min-height: 100vh;
+  position: relative;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 100vw;
+  box-sizing: border-box;
+}
+
+.headerContainer {
+  background-color: #12395b;
+  border-bottom: 1px solid #41617c;
+  color: #fff;
+  min-height: 97px;
+  position: relative;
+  z-index: 2001;
+  left: 0;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+  color: #fff;
+}
+
+.bodyContent {
+  background-color: #fff;
+  color: #006ec8;
+  min-height: 97px;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.bodyContent h1 {
+  color: #0b2237;
+  font-size: 2.5rem;
+}
